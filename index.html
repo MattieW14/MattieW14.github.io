@@ -1,6 +1,112 @@
 		<!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:#43bbf7;
+}
+
+.navbar a {
+  float: left;
+  font-size: 18px;
+  color: lightyellow;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: lightyellow;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color:lightcoral;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: lightpink;
+
+
+
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: lightyellow;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+table {
+  width: 50%;
+}
+
+</style>
+</head>
+<body style="background-color:skyblue;">
+
+<div class="navbar">
+  <a href="file:///Users/s2025/Desktop/mattie/index.html">home</a>
+  <a href="file:///Users/s2025/Desktop/mattie/ingredients.html">ingredients</a>
+  <div class="dropdown">
+    <button class="dropbtn">cookie flavors 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///Users/s2025/Desktop/mattie/WhiteChocolate.html">White Chocolate Dipped Macadamia</a>
+      <a href="file:///Users/s2025/Desktop/mattie/ButterMacadamia.html">Butter Macadamia</a>
+     <a href="file:///Users/s2025/Desktop/mattie/ChocolateMacadamia.html">Chocolate Dipped Macadamia</a>
+      <a href="file:///Users/s2025/Desktop/mattie/MangoMacadamia.html">Mango Macadamia</a>
+      <a file:///Users/s2025/Desktop/mattie/KonaCoffee.html="#">Kona Coffee</a>
+      <a href="file:///Users/s2025/Desktop/mattie/ChocolateChip.html">Chocolate Chip Macadamia</a>
+      
+
+    </div>
+  </div> 
+</div>
+
+</body>
+</html>
+
+
+		<!DOCTYPE html>
+
+<html>
+<head>
 	<title>Cookies</title>
 </head>
 <body>
@@ -10,42 +116,42 @@
 
 
 
-	<table border="1px"> 
+	<center> <table border="1px"> 
 		<tr>
 			<th>cookie</th>
 			<th>price</th>
 		</tr>
 		<tr>
-			<td><img src="chocolatemacadamia.jpg" alt="Chocolate Macadamia" width="300" height="500"/><br><a href="ChocolateMacadamia.html">Chocolate Dipped Macadamia</td>
+			<td><img src="chocolatemacadamia.jpg" alt="Chocolate Macadamia" width="150" height="250"/><br><a href="ChocolateMacadamia.html">Chocolate Dipped Macadamia</td>
 			<td>$0.95</td>
 		</tr>
 		<tr>
-			<td><img src="whitechocolatemacadamia.jpg" alt="White Chocolate Macadamia" width="300" height="500"/><br><a href="WhiteChocolate.html"> White Chocolate Dipped Macadamia</td>
-			<td>$0.95</td>
-
-		</tr>
-		<tr>
-			<td><img src="buttermacadamia.jpg" alt="Butter Macadamia" width="300" height="500"/><br><a href="ButterMacadamia.html"> Butter Macadamia</td>
-			<td>$0.95</td>
-		</tr>
-		<tr>
-			<td><img src="mangomacadamia.jpg" alt="Mango Macadamia" width="300" height="500"/><br><a href="MangoMacadamia.html"> Mango Macadamia</td>
+			<td><img src="whitechocolatemacadamia.jpg" alt="White Chocolate Macadamia" width="150" height="250"/><br><a href="WhiteChocolate.html"> White Chocolate Dipped Macadamia</td>
 			<td>$0.95</td>
 
 		</tr>
 		<tr>
-			<td><img src="chocolatechipmacadamia.jpg" alt="Chocolate Chip Macadamia" width="300" height="500"/><br><a href="ChocolateChip.html"> Chocolate Chip Macadamia</td>
+			<td><img src="buttermacadamia.jpg" alt="Butter Macadamia" width="150" height="250"/><br><a href="ButterMacadamia.html"> Butter Macadamia</td>
+			<td>$0.95</td>
+		</tr>
+		<tr>
+			<td><img src="mangomacadamia.jpg" alt="Mango Macadamia" width="150" height="250"/><br><a href="MangoMacadamia.html"> Mango Macadamia</td>
 			<td>$0.95</td>
 
 		</tr>
 		<tr>
-			<td><img src="konacoffeemacadamia.jpg" alt="Kona Coffee Macadamia" width="300" height="500"/><br><a href="KonaCoffee.html"> Kona Coffee Cookie</td>
+			<td><img src="chocolatechipmacadamia.jpg" alt="Chocolate Chip Macadamia" width="150" height="250"/><br><a href="ChocolateChip.html"> Chocolate Chip Macadamia</td>
+			<td>$0.95</td>
+
+		</tr>
+		<tr>
+			<td><img src="konacoffeemacadamia.jpg" alt="Kona Coffee Macadamia" width="150" height="250"/><br><a href="KonaCoffee.html"> Kona Coffee Cookie</td>
 			<td>$0.95</td>
 
 
 	</tr>
 		</table>
-
+</center>
 
 
 
